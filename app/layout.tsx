@@ -1,26 +1,23 @@
 import type { Metadata } from "next";
 
-// Bootstrap 5
+// استيراد ملفات CSS
 import "bootstrap/dist/css/bootstrap.min.css";
-// Font Awesome 6
 import "@/public/icons/css/all.min.css";
-// Modal video styles
 import "yet-another-react-lightbox/styles.css";
-// Main SCSS styles
 import "@/public/scss/main.scss";
 
 export const metadata: Metadata = {
-  title: "Madar Alcon | مكيفات وغسالات - صيانة محترفة في جدة",
+  title: "Madar Alcon | مدار ألكون - مكيفات وغسالات - صيانة محترفة في جدة",
   description:
-    "Madar Alcon تقدم خدمات صيانة مكيفات الهواء والغسالات بجودة عالية داخل مدينة جدة. زيارات منزلية سريعة، تشخيص دقيق، وأسعار مناسبة من قبل فريق سعودي موثوق بقيادة محمد أحمد محبوب.",
+    "مدار ألكون تقدم خدمات صيانة مكيفات الهواء والغسالات بجودة عالية داخل مدينة جدة. زيارات منزلية سريعة، تشخيص دقيق، وأسعار مناسبة من قبل فريق سعودي موثوق بقيادة محمد أحمد محبوب.",
   keywords: [
-    // Arabic Keywords
+    // كلمات مفتاحية بالعربي
     "صيانة مكيفات جدة",
     "صيانة غسالات جدة",
     "شركة صيانة جدة",
     "فني مكيفات جدة",
     "فني غسالات جدة",
-    "Madar Alcon",
+    "مدار ألكون",
     "صيانة منزلية",
     "غسالات",
     "مكيفات",
@@ -29,7 +26,7 @@ export const metadata: Metadata = {
     "تصليح مكيفات",
     "تصليح غسالات",
 
-    // English Keywords
+    // English keywords
     "AC repair Jeddah",
     "washing machine repair Jeddah",
     "home appliance maintenance Jeddah",
@@ -43,12 +40,12 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Muhammad Ahmad Mahboob",
+      name: "محمد أحمد محبوب",
       url: "https://madaralcon.com",
     },
   ],
   openGraph: {
-    title: "Madar Alcon | مكيفات وغسالات - صيانة محترفة في جدة",
+    title: "Madar Alcon | مدار ألكون - مكيفات وغسالات - صيانة محترفة في جدة",
     description:
       "خدمة صيانة موثوقة لجميع أنواع المكيفات والغسالات في جدة. بقيادة محمد أحمد محبوب وفريق متخصص، نصل إليك بسرعة أينما كنت داخل المدينة.",
     url: "https://madaralcon.com",
@@ -57,20 +54,20 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://madaralcon.com/images/og-image.jpg", // update with your real OG image path
+        url: "https://qskz3k3ndax6ixp5yyjrfheyle.srv.us/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Madar Alcon - صيانة المكيفات والغسالات في جدة",
+        alt: "مدار ألكون - صيانة المكيفات والغسالات في جدة",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Madar Alcon | مكيفات وغسالات - صيانة محترفة في جدة",
+    title: "Madar Alcon | مدار ألكون - مكيفات وغسالات - صيانة محترفة في جدة",
     description:
       "صيانة مكيفات الهواء والغسالات في جدة بسرعة وكفاءة بواسطة فريق سعودي متخصص بقيادة محمد أحمد محبوب.",
     images: [
-      "/opengraph-image.png", // update with your real image path
+      "https://qskz3k3ndax6ixp5yyjrfheyle.srv.us/opengraph-image.png",
     ],
   },
   metadataBase: new URL("https://madaralcon.com"),
