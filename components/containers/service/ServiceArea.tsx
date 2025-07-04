@@ -73,8 +73,8 @@ const ServiceArea = () => {
               >
                 <h4>{service.title}</h4>
                 <p>{service.description}</p>
-                <Link href="services-details">
-                  عرض المزيد<i className="fa-regular fa-angle-left"></i> {/* Changed to angle-left for RTL */}
+                <Link href="/contact">
+                  تواصل معنا<i className="fa-regular fa-angle-left"></i>
                 </Link>
                 <div className="icon">
                   <i className={service.icon}></i>
