@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://qskz3k3ndax6ixp5yyjrfheyle.srv.us/opengraph-image.png",
+        url: "https://madaralcon.com/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "من نحن - مدار ألكون - صيانة المكيفات والغسالات في جدة",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     description:
       "تعرّف على فريق مدار ألكون السعودي المحترف الذي يقدم خدمات صيانة المكيفات والغسالات بجدة بسرعة وكفاءة عالية.",
     images: [
-      "https://qskz3k3ndax6ixp5yyjrfheyle.srv.us/opengraph-image.png",
+      "https://madaralcon.com/opengraph-image.png",
     ],
   },
   metadataBase: new URL("https://madaralcon.com"),
