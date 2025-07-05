@@ -27,7 +27,7 @@ const ContactArea = () => {
                   <div className="info-item-content">
                     <span>Call Now</span>
                     <h6>
-                      <Link href="tel:+125(895)658568">+125 (895) 658 568</Link>
+                      <Link href="tel:+966541243428">824 43 412 9665+</Link>
                     </h6>
                   </div>
                 </div>
@@ -38,8 +38,8 @@ const ContactArea = () => {
                   <div className="info-item-content">
                     <span>Quick Email</span>
                     <h6>
-                      <Link href="mailto:info.help@gmail.com">
-                        info.help@gmail.com
+                      <Link href="mailto:contact@madaralcon.com">
+                        contact@madaralcon.com
                       </Link>
                     </h6>
                   </div>

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Header from "@/components/layout/header/Header";
 import BreadCrumb from "@/components/layout/banner/BreadCrumb";
 import ContactArea from "@/components/containers/ContactArea";
-import SubscribeArea from "@/components/containers/home-two/SubscribeArea";
+// import SubscribeArea from "@/components/containers/home-two/SubscribeArea";
 import Footer from "@/components/layout/footer/Footer";
 import InitAnimations from "@/components/layout/InitAnimations";
 import CustomCursor from "@/components/layout/CustomCursor";
@@ -91,7 +91,7 @@ const page = () => {
       <Header />
       <BreadCrumb title="تواصل معنا" />
       <ContactArea />
-      <SubscribeArea />
+      {/* <SubscribeArea /> */}
       <Footer />
       <InitAnimations />
       <CustomCursor />

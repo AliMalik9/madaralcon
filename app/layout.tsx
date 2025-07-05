@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
+import { Noto_Sans_Arabic } from "next/font/google";
 
 // استيراد ملفات CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@/public/icons/css/all.min.css";
 import "yet-another-react-lightbox/styles.css";
 import "@/public/scss/main.scss";
+
+// Load Noto Sans Arabic from next/font/google
+const notoSansArabic = Noto_Sans_Arabic({
+  subsets: ["arabic"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],            
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Madar Alcon | مدار ألكون - مكيفات وغسالات - صيانة محترفة في جدة",
@@ -66,9 +74,7 @@ export const metadata: Metadata = {
     title: "Madar Alcon | مدار ألكون - مكيفات وغسالات - صيانة محترفة في جدة",
     description:
       "صيانة مكيفات الهواء والغسالات في جدة بسرعة وكفاءة بواسطة فريق سعودي متخصص بقيادة محمد أحمد محبوب.",
-    images: [
-      "https://qskz3k3ndax6ixp5yyjrfheyle.srv.us/opengraph-image.png",
-    ],
+    images: ["https://qskz3k3ndax6ixp5yyjrfheyle.srv.us/opengraph-image.png"],
   },
   metadataBase: new URL("https://madaralcon.com"),
   robots: {
@@ -91,7 +97,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="rtl">
-      <body suppressHydrationWarning>{children}</body>
+      <body className={notoSansArabic.className} suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }

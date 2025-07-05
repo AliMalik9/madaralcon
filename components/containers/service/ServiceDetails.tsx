@@ -1,3 +1,5 @@
+"use client";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import avatar from "@/public/img/avatar/help.png";
@@ -5,7 +7,25 @@ import one from "@/public/img/service/services-details.jpg";
 import two from "@/public/img/portfolio/portfolio-2.jpg";
 import three from "@/public/img/portfolio/portfolio-5.jpg";
 
+const services = [
+  {
+    id: 0,
+    title: "تركيب وصيانة المكيفات",
+    description:
+      "نقدم خدمات تركيب وصيانة احترافية لجميع أنواع المكيفات لضمان أفضل أداء وتبريد.",
+    images: [one, two], // Add as many images as you want
+    // ...other fields...
+  },
+  // ...other services...
+];
+
 const ServiceDetails = () => {
+  const searchParams = useSearchParams();
+  const id = Number(searchParams.get("id"));
+  const service = services.find((s) => s.id === id);
+
+  if (!service) return <div>الخدمة غير موجودة</div>;
+
   return (
     <div className="services__details section-padding">
       <div className="container">
@@ -85,12 +105,8 @@ const ServiceDetails = () => {
           </div>
           <div className="col-lg-8">
             <div className="services__details-content">
-              <h2 className="mb-20 ">Your Plumbing Solutions</h2>
-              <p className="mb-35">
-                Plumbers provide essential services to install, repair, and
-                maintain plumbing systems in residential and commercial
-                properties. They work on pipes, fixtures, water heaters
-              </p>
+              <h2 className="mb-20 ">{service.title}</h2>
+              <p className="mb-35">{service.description}</p>
               <div className="parallax-image-wrap">
                 <div className="parallax-image-inner">
                   <Image
