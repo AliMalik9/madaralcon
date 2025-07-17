@@ -79,11 +79,11 @@ const Header = () => {
               <div className="header-one__center">
                 <div className="header-one__center-menu t-center">
                   <ul id="mobilemenu">
-                    <li className="menu-item"> <Link href="/">Home</Link> </li>
-                    <li> <Link href="/services">Services</Link> </li>
-                    <li> <Link href="/about">About</Link> </li>
-                    {/* <li> <Link href="/projects">Our Work</Link> </li> */}
-                    <li> <Link href="/faq">FAQ&apos;s</Link> </li>
+                    <li className="menu-item"> <Link href="/">الرئيسية</Link> </li>
+                    <li> <Link href="/services">الخدمات</Link> </li>
+                    <li> <Link href="/about">من نحن</Link> </li>
+                    {/* <li> <Link href="/projects">أعمالنا</Link> </li> */}
+                    <li> <Link href="/faq">الأسئلة الشائعة</Link> </li>
                     {/* <li> <Link href="contact">Contact</Link> </li> */}
                     {/* <li> <Link href="testimonial">Testimonial</Link> </li> */}
                     {/* <li className="menu-item-has-children">
@@ -169,7 +169,7 @@ const Header = () => {
                 </div>
                 <div className="header-one__right-button">
                   <Link className="button-1" href="/contact">
-                    Get A Quote<i className="fa-regular fa-angle-right"></i>
+                    اطلب عرض سعر<i className="fa-regular fa-angle-right"></i>
                   </Link>
                 </div>
                 <div

@@ -25,7 +25,7 @@ const Hamburger = ({ hamburger, setHamburger }: HamburgerProps) => {
           </Link>
         </div>
         <p>
-         خدمة صيانة موثوقة لجميع أنواع المكيفات والغسالات في جدة. بقيادة محمد
+          خدمة صيانة موثوقة لجميع أنواع المكيفات والغسالات في جدة. بقيادة محمد
           أحمد محبوب وفريق متخصص، نصل إليك بسرعة أينما كنت داخل المدينة.
         </p>
         <div className="header-one__right-sidebar-popup-contact">
@@ -71,23 +71,21 @@ const Hamburger = ({ hamburger, setHamburger }: HamburgerProps) => {
         <div className="header-one__right-sidebar-popup-social social__icon">
           <ul>
             <li>
-              <Link href="https://facebook.com" target="_blank">
-                <i className="fab fa-facebook-f"></i>
+              <Link href="https://www.snapchat.com/@madaralcon" target="_blank">
+                <i className="fa-brands fa-snapchat"></i>
               </Link>
             </li>
             <li>
-              <Link href="https://twitter.com" target="_blank">
-                <i className="fa-brands fa-twitter"></i>
+              <Link href="https://www.tiktok.com/@madaralcon" target="_blank">
+                <i className="fab fa-tiktok"></i>
               </Link>
             </li>
             <li>
-              <Link href="https://behance.net" target="_blank">
-                <i className="fab fa-behance"></i>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://linkedin.com" target="_blank">
-                <i className="fab fa-linkedin-in"></i>
+              <Link
+                href="https://www.instagram.com/madar.alcon"
+                target="_blank"
+              >
+                <i className="fab fa-instagram"></i>
               </Link>
             </li>
           </ul>

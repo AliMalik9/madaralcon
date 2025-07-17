@@ -219,25 +219,20 @@ const OffcanvasMenu = ({ toggleMenu, handleToggleMenu }: HamburgerProps) => {
                 </ul>
                 <div className="social-icon d-flex align-items-center">
                   <li>
-                    <Link href="https://facebook.com" target="_blank">
-                      <i className="fab fa-facebook-f"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://twitter.com" target="_blank">
-                      <i className="fa-brands fa-twitter"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://behance.net" target="_blank">
-                      <i className="fab fa-behance"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://linkedin.com" target="_blank">
-                      <i className="fab fa-linkedin-in"></i>
-                    </Link>
-                  </li>
+                      <Link href="https://www.snapchat.com/@madaralcon" target="_blank">
+                        <i className="fa-brands fa-snapchat"></i>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://www.tiktok.com/@madaralcon" target="_blank">
+                        <i className="fab fa-tiktok"></i>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://www.instagram.com/madar.alcon" target="_blank">
+                        <i className="fab fa-instagram"></i>
+                      </Link>
+                    </li>
                 </div>
               </div>
             </div>

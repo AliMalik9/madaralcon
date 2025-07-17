@@ -25,7 +25,7 @@ const Footer = () => {
                     <i className="fal fa-phone-alt icon-animation"></i>
                   </div>
                   <div className="info-item-content">
-                    <span>Call Now</span>
+                    <span>اتصل الآن</span>
                     <h6>
                       <Link href="tel:+966541243428">824 43 412 9665+</Link>
                     </h6>
@@ -36,7 +36,7 @@ const Footer = () => {
                     <i className="fal fa-envelope"></i>
                   </div>
                   <div className="info-item-content">
-                    <span>Quick Email</span>
+                    <span>البريد الإلكتروني السريع</span>
                     <h6>
                       <Link href="mailto:contact@madaralcon.com">
                         contact@madaralcon.com
@@ -54,23 +54,23 @@ const Footer = () => {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <h4>Quick links</h4>
+              <h4>روابط سريعة</h4>
               <div className="footer-widget-menu">
                 <ul>
                   <li>
-                    <Link href="/services">Services</Link>{" "}
+                    <Link href="/services">الخدمات</Link>{" "}
                   </li>
                   <li>
-                    <Link href="/about">About</Link>{" "}
+                    <Link href="/about">من نحن</Link>{" "}
+                  </li>
+                    {/* <li>
+                    <Link href="/projects">أعمالنا</Link>{" "}
+                  </li> */}
+                  <li>
+                    <Link href="/faq">الأسئلة الشائعة</Link>{" "}
                   </li>
                   <li>
-                    <Link href="/projects">Our Work</Link>{" "}
-                  </li>
-                  <li>
-                    <Link href="/faq">FAQ&apos;s</Link>{" "}
-                  </li>
-                  <li>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="/contact">اتصل بنا</Link>
                   </li>
                 </ul>
               </div>
@@ -83,36 +83,36 @@ const Footer = () => {
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              <h4>Services</h4>
+              <h4>الخدمات</h4>
               <div className="footer-widget-menu">
                 <ul>
                   <li>
-                    <Link href="/services-details/ac-installation">
+                    <Link href="/contact">
                       تركيب وصيانة المكيفات
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services-details/ac-repair">
+                    <Link href="/contact">
                       إصلاح فوري للمكيفات
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services-details/ac-cleaning">
+                    <Link href="/contact">
                       تنظيف وتعقيم المكيفات
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services-details/washing-machine-repair">
+                    <Link href="/contact">
                       إصلاح وصيانة الغسالات
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services-details/washing-machine-solutions">
+                    <Link href="/contact">
                       حلول مشاكل الغسالات
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services-details/washing-machine-installation">
+                    <Link href="/contact">
                       تركيب وتوصيل الغسالات
                     </Link>
                   </li>
@@ -127,31 +127,35 @@ const Footer = () => {
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              <h4>Working Time</h4>
+              <h4>ساعات العمل</h4>
               <div className="footer__one-widget-hour">
-                <p>Mon - Fri : 9:00 AM - 5:00 PM</p>
-                <p>Sat : 10:00 AM - 6:00 PM</p>
-                <p>Sunday Close</p>
+                <p>الاثنين: 10 صباحًا - 10 مساءً</p>
+                <p>الثلاثاء: 10 صباحًا - 10 مساءً</p>
+                <p>الأربعاء: 10 صباحًا - 10 مساءً</p>
+                <p>الخميس: 10 صباحًا - 10 مساءً</p>
+                <p>الجمعة: 4 مساءً - 10 مساءً</p>
+                <p>السبت: 10 صباحًا - 10 مساءً</p>
+                <p>الأحد: 10 صباحًا - 10 مساءً</p>
                 <div className="social__icon">
                   <ul>
-                    <li>
+                    {/* <li>
                       <Link href="https://facebook.com" target="_blank">
                         <i className="fab fa-facebook-f"></i>
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
-                      <Link href="https://twitter.com" target="_blank">
-                        <i className="fa-brands fa-twitter"></i>
+                      <Link href="https://www.snapchat.com/@madaralcon" target="_blank">
+                        <i className="fa-brands fa-snapchat"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://behance.net" target="_blank">
-                        <i className="fab fa-behance"></i>
+                      <Link href="https://www.tiktok.com/@madaralcon" target="_blank">
+                        <i className="fab fa-tiktok"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://linkedin.com" target="_blank">
-                        <i className="fab fa-linkedin-in"></i>
+                      <Link href="https://www.instagram.com/madar.alcon" target="_blank">
+                        <i className="fab fa-instagram"></i>
                       </Link>
                     </li>
                   </ul>
@@ -167,8 +171,7 @@ const Footer = () => {
                 <div className="col-lg-6">
                   <div className="copyright__one-left lg-t-center">
                     <p>
-                      &copy; <Link href="/">Pipepro</Link> {currentYear} | All
-                      Rights Reserved
+                      &copy; <Link href="/">مدار ألكون</Link> {currentYear} | جميع الحقوق محفوظة
                     </p>
                   </div>
                 </div>
@@ -176,10 +179,10 @@ const Footer = () => {
                   <div className="copyright__one-menu t-right lg-t-center lg-mt-5">
                     <ul>
                       <li>
-                        <Link href="contact">Privacy & Policy</Link>
+                        <Link href="contact">سياسة الخصوصية</Link>
                       </li>
                       <li>
-                        <Link href="contact">Terms and Conditions</Link>
+                        <Link href="contact">الشروط والأحكام</Link>
                       </li>
                     </ul>
                   </div>

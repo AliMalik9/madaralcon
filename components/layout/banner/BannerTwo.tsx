@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import faq from "@/public/img/pages/faq.png";
+import faq from "@/public/img/pages/faq.webp";
 import bannerShape from "@/public/img/shape/banner-shape.png";
 
 const BannerTwo = () => {
