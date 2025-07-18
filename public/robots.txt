@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /unused-page-1
-Disallow: /unused-page-2
-Disallow: /old-page
+Disallow:
+Sitemap: https://madaralcon.com/sitemap.xml

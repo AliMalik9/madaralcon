@@ -97,6 +97,40 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="rtl">
+      <head>
+        {/* ...existing meta tags... */}
+        <script type="application/ld+json" suppressHydrationWarning>
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Madar Alcon",
+              "url": "https://madaralcon.com",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://madaralcon.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }
+          `}
+        </script>
+        <script type="application/ld+json" suppressHydrationWarning>
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "SiteNavigationElement",
+              "name": ["الرئيسية", "الخدمات", "من نحن", "الأسئلة الشائعة", "اتصل بنا"],
+              "url": [
+                "https://madaralcon.com/",
+                "https://madaralcon.com/services",
+                "https://madaralcon.com/about",
+                "https://madaralcon.com/faq",
+                "https://madaralcon.com/contact"
+              ]
+            }
+          `}
+        </script>
+      </head>
       <body className={notoSansArabic.className} suppressHydrationWarning>
         {children}
       </body>
