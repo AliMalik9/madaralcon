@@ -1,4 +1,4 @@
-// components/WhatsappWidget.tsx
+"use client";
 import React from "react";
 
 const WhatsappWidget: React.FC = () => {

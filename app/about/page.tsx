@@ -11,6 +11,8 @@ import Footer from "@/components/layout/footer/Footer";
 import InitAnimations from "@/components/layout/InitAnimations";
 import CustomCursor from "@/components/layout/CustomCursor";
 import ScrollProgressButton from "@/components/layout/ScrollProgressButton";
+import WhatsappWidget from "@/components/layout/WhatsappWidget";
+
 
 export const metadata: Metadata = {
   title: "من نحن | مدار ألكون - صيانة المكيفات والغسالات في جدة",
@@ -97,6 +99,8 @@ const page = () => {
       <Pricing />
       <Faq />
       <Footer />
+            <WhatsappWidget />
+
       <InitAnimations />
       <CustomCursor />
       <ScrollProgressButton />
